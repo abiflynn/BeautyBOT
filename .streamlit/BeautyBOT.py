@@ -8,7 +8,7 @@ import altair as alt
 
 #set a page BeautyBOT 
 st.set_page_config(layout="wide",
-     page_title="BeautyBOT"
+     page_title="BeautyBOT THIS"
      #page_icon=""
 )
 

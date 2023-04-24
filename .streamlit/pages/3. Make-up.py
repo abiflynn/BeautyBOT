@@ -7,10 +7,10 @@ import time
 from sklearn.preprocessing import MinMaxScaler
 
 
-st.image('/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 18.37.01.png')
+st.image('.streamlit/streamlit_images/Screenshot 2023-04-12 at 00.41.21.png')
 
 #read in the dataset and manipulate
-foundation = pd.read_csv("/Users/abigailflynn/Desktop/WBS CODING /Final Project /Data Sets /allShades.csv")
+foundation = pd.read_csv("./data_sets/allShades.csv")
 foundation.drop(["url", "description", "imgSrc", "imgAlt"], axis=1, inplace=True)
 #drop hue = 230.4 due to irregular value - mess up the scaling
 foundation = foundation.drop(foundation[foundation['hue'] == 230.4].index)

@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import euclidean_distances
 import time 
 
 
-st.image('/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-11 at 13.34.24.png')
+st.image('.streamlit/streamlit_images/Screenshot 2023-04-11 at 13.34.24.png')
 
 st.title("Want to try a New Perfume?! Not sure where to Start?!")
 st.write(""":brown_heart: Input your favourite below and BeautyBOT will make recommendations using the scents, base notes and middle notes.""")
@@ -18,11 +18,11 @@ st.write(""":brown_heart: The top fragrances based on user ratings.""")
 
 
 #read in the dataset
-perfume_merge_women = pd.read_csv("/Users/abigailflynn/Desktop/WBS CODING /Final Project /CSVs Exported from Google Colab/perfume_merge_women.csv")
-perfume_clusters_women = pd.read_csv("/Users/abigailflynn/Desktop/WBS CODING /Final Project /CSVs Exported from Google Colab/perfume_clusters_women.csv")
+perfume_merge_women = pd.read_csv("./exported_csvs/perfume_merge_women.csv")
+perfume_clusters_women = pd.read_csv("./exported_csvs/perfume_clusters_women.csv")
 
-perfume_merge_men = pd.read_csv("/Users/abigailflynn/Desktop/WBS CODING /Final Project /CSVs Exported from Google Colab/perfume_merge_men.csv")
-perfume_clusters_men = pd.read_csv("/Users/abigailflynn/Desktop/WBS CODING /Final Project /CSVs Exported from Google Colab/perfume_clusters_men.csv")
+perfume_merge_men = pd.read_csv("./exported_csvs/perfume_merge_men.csv")
+perfume_clusters_men = pd.read_csv("./exported_csvs/perfume_clusters_men.csv")
 
 if gender == "Female":
     top_perfumes = perfume_clusters_women.sort_values(by='item_rating', ascending=False)[["brand", "name"]].head(5)

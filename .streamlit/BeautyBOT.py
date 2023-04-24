@@ -15,9 +15,9 @@ st.set_page_config(layout="wide",
 #beautybot title
 st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 17.42.57.png")
 #images banner
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 17.42.48.png")
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 17.42.48.png")
 #black line 
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 17.39.47.png")
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 17.39.47.png")
 
 #opening 
 st.title("Welcome to BeautyBOT!")
@@ -63,8 +63,8 @@ BeautyBOT is at the forefront of this trend, offering a solution that provides c
 
 Companies that can provide the most innovative and personalised experiences for their customers will be the ones that succeed. A brand-neutral interface, such as BeautyBOT, that offers unlimited recommendations, will help retailers drive growth and increase sales and profits.""")
 
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 17.40.31.png") 
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 17.39.47.png")        
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 17.40.31.png") 
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 17.39.47.png")        
 st.title("BeautyBOT: Recommenders")
 
 
@@ -72,22 +72,22 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.subheader("")
-   st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-06 at 12.11.13.png")
+   st.image(".streamlit/streamlit_images/Screenshot 2023-04-06 at 12.11.13.png")
    st.write("""
     - Input your gender and BeautyBOT will generate the top 5 male/female fragrances based on user ratings.
     - Input your favourite fragrance and BeautyBOT will recommend you 5 more fragrances based on the scent, base notes and middle notes.""")
 
 with col2:
    st.subheader("")
-   st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-06 at 12.11.26.png")
+   st.image(".streamlit/streamlit_images/Screenshot 2023-04-06 at 12.11.26.png")
    st.write("""
     - Input your favourite skincare product and BeautyBOT will recommend you 5 products of the same product type based on the ingredients.
     - BeautyBOT will also recommend you 5 products from different product types based on the ingredients.""")
 
 with col3:
    st.subheader("")
-   st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-06 at 12.11.20.png")
+   st.image(".streamlit/streamlit_images/Screenshot 2023-04-06 at 12.11.20.png")
    st.write("""
     - Input your favourite foundation product and BeautyBOT will recommend you 5 other foundations based on the hue, saturation and lightness.""")
 
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 17.39.47.png")    
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 17.39.47.png")    

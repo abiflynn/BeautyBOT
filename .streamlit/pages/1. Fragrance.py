@@ -34,8 +34,7 @@ else:
 user_input = st.text_input("Enter Your Favourite Fragrance Here:")
 
 if user_input:
-   if user_input not in perfume_merge_women["name"].tolist() and user_input not in perfume_merge_men["name"].tolist():
-   st.warning("Information not available for this product: We are working to add in more brands and products!")
+   if user_input not in perfume_merge_women["name"].tolist() and user_input not in perfume_merge_men["name"].tolist():st.warning("Information not available for this product: We are working to add in more brands and products!")
 
     else progress_bar = st.progress(0)
         for perc_completed in range(100):

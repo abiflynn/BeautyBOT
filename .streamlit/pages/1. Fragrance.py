@@ -34,17 +34,18 @@ else:
 user_input = st.text_input("Enter Your Favourite Fragrance Here:")
 
 if user_input:
-   if user_input not in perfume_merge_women["name"].tolist() and user_input not in perfume_merge_men["name"].tolist():st.warning("Information not available for this product: We are working to add in more brands and products!")
-    
-else progress_bar = st.progress(0)
-    for perc_completed in range(100):
-        time.sleep(0.02)
-        progress_bar.progress(perc_completed+1)
-    st.success("Fragrance Inputed")
-    if gender == "Female":
-        st.header(f"Fragrances Similar to {user_input}")
-        st.write(""":brown_heart: Based on the scents, base notes and middle notes, here are some fragrances we think you will like!""")
-
+    if user_input not in perfume_merge_women["name"].tolist() and user_input not in perfume_merge_men["name"].tolist():
+        st.warning("Information not found for this product")
+    else:
+        progress_bar = st.progress(0)
+        for perc_completed in range(100):
+            time.sleep(0.02)
+            progress_bar.progress(perc_completed+1)
+        st.success("Fragrance Inputed")
+        if gender == "Female":
+            st.header(f"Fragrances Similar to {user_input}")
+            st.write(""":brown_heart: Based on the scents, base notes and middle notes, here are some fragrances we think you will like!""")
+        
         #create a point/data for the imputed fragrance name
         point = perfume_clusters_women.loc[perfume_clusters_women['name'] == user_input, perfume_clusters_women.columns != 'name']
         point.drop(['cluster', 'distance', 'brand', 'concentration', 'department', 'scents', 'item_rating', 'base_note_1', 'base_note_2', 'base_note_3', 'base_note_4', 'base_note_5', 'base_note_6', 'base_note_7', 'base_note_8', 'base_note_9', 'base_note_10', 'base_note_11', 'middle_note_1', 'middle_note_2', 'middle_note_3', 'middle_note_4', 'middle_note_5', 'middle_note_6', 'middle_note_7', 'middle_note_8', 'middle_note_9', 'middle_note_10', 'middle_note_11', 'middle_note_12'], axis=1, inplace = True)

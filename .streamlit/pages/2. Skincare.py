@@ -5,9 +5,9 @@ from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import euclidean_distances
 import time 
 
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 18.27.54.png")
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 18.27.54.png")
 
-skincare_clusters = pd.read_csv("/Users/abigailflynn/Desktop/WBS CODING /Final Project /CSVs Exported from Google Colab/skincare_clusters.csv")
+skincare_clusters = pd.read_csv("./exported_csvs/skincare_clusters.csv")
 
 st.title("Looking for a New Skincare Product?!")
 

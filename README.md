@@ -1,6 +1,6 @@
 # BeautyBOT
 
-[BeautyBOT](https://abiflynn-beautybot--streamlitbeautybot-qlrz41.streamlit.app/) is a brand neutral beauty interface I have created to provide unbiased recommendations to consumers, helping them navigate the overwhelming number of choices in the beauty industry. BeautyBOT works across the three key areas of the beauty industry.
+[BeautyBOT](https://abiflynn-beautybot--streamlitbeautybot-e4dh3u.streamlit.app/) is a brand neutral beauty interface I have created to provide unbiased recommendations to consumers, helping them navigate the overwhelming number of choices in the beauty industry. BeautyBOT works across the three key areas of the beauty industry.
 
 1. Fragrance
 2. Makeup
@@ -43,7 +43,7 @@ Companies that can provide the most innovative and personalised experiences for 
 
 ## Streamlit App 
 
-I have created a streamlit app for users to use these recommenders. [Link Here!](https://abiflynn-beautybot--streamlitbeautybot-qlrz41.streamlit.app/)
+I have created a streamlit app for users to use these recommenders. [Link Here!](https://abiflynn-beautybot--streamlitbeautybot-e4dh3u.streamlit.app/)
 
 
 ## Constraints 

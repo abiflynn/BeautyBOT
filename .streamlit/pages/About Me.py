@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import euclidean_distances
 import time 
 
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-11 at 13.37.47.png")
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-11 at 13.37.47.png")
 # st.subheader("Contact Info:")
 # st.write("""
 # :arrow_forward: London :arrow_forward: 07876744960 :arrow_forward: abigailflynn@icloud.com :arrow_forward: www.linkedin.com/in/abigail-flynn :arrow_forward: www.github.com/abiflynn""")
@@ -14,7 +14,7 @@ col1, col2 = st.columns([1.5,3])
 
 with col1:
    st.header("")
-   st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-06 at 11.56.45.png")
+   st.image(".streamlit/streamlit_images/Screenshot 2023-04-06 at 11.56.45.png")
    st.subheader("Contact Information:")
    st.write("""	:arrow_forward: Number: 07876744960""")
    st.write("""	:arrow_forward: Email: abigailflynn@icloud.com""")

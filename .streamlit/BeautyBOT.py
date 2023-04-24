@@ -13,7 +13,7 @@ st.set_page_config(layout="wide",
 )
 
 #beautybot title
-st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 17.42.57.png")
+st.image(".streamlit/streamlit_images/Screenshot 2023-04-10 at 17.42.57.png")
 #images banner
 st.image("/Users/abigailflynn/Desktop/WBS CODING /Final Project /streamlit_images/Screenshot 2023-04-10 at 17.42.48.png")
 #black line 
